@@ -1,0 +1,35 @@
+body {
+	font-family: sans-serif;
+}
+
+.digital p {
+	background-color: red;
+}
+
+.analog p {
+	background-color: yellow;
+}
+
+.digital p a {
+	font-weight: bold;
+}
+
+.analog p a {
+	font-weight: lighter;
+}
+
+a {/*THIS DOES NOT WORK SINCE THERE ARE RULES 
+	MORE SPECIFIC THAT USE DIFFERENT VALUES.*/
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 42px;
+}
+
+.countries h2 {
+	font-weight: lighter;
+	color: orange;
+}
+
+
